@@ -1,5 +1,3 @@
-import React from 'react'
-
 const RatingSelect = ({ select, selected }) => {
   const handleChange = (e) => {
     select(+e.currentTarget.value)
